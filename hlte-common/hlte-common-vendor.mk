@@ -294,6 +294,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libuicc.so:system/vendor/lib/libuicc.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_bsp_qcci.so:system/vendor/lib/libvss_bsp_qcci.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_common_core.so:system/vendor/lib/libvss_common_core.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_common_idl.so:system/vendor/lib/libvss_common_idl.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_common_iface.so:system/vendor/lib/libvss_common_iface.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_dmi_qcci.so:system/vendor/lib/libvss_dmi_qcci.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_gnss_qcci.so:system/vendor/lib/libvss_gnss_qcci.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_ims_qcci.so:system/vendor/lib/libvss_ims_qcci.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_nv_core.so:system/vendor/lib/libvss_nv_core.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_nv_idl.so:system/vendor/lib/libvss_nv_idl.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_nv_iface.so:system/vendor/lib/libvss_nv_iface.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_resim_core.so:system/vendor/lib/libvss_resim_core.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_resim_idl.so:system/vendor/lib/libvss_resim_idl.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_resim_iface.so:system/vendor/lib/libvss_resim_iface.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libvss_sar_qcci.so:system/vendor/lib/libvss_sar_qcci.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/samsung/hlte-common/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/samsung/hlte-common/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
@@ -315,4 +335,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
+    qcrilmsgtunnel \
+    qcnvitems \
+    qcrilhook \
     TimeService
+
