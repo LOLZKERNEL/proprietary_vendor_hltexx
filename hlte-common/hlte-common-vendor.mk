@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/samsung/hlte-common/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
-    vendor/samsung/hlte-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/hlte-common/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/hlte-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/samsung/hlte-common/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
@@ -45,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:system/vendor/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:system/vendor/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:system/vendor/etc/wifi/bcmdhd_mfg.bin \
